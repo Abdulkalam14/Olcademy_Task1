@@ -1,0 +1,49 @@
+
+/* src/components/Banner.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+.banner {
+  /*background-image: url('https://www.google.com/imgres?q=background%20images%20for%20perfume%20website&imgurl=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1676748933022-e1183e997436%3Ffm%3Djpg%26q%3D60%26w%3D3000%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZnVtZXxlbnwwfHwwfHx8MA%253D%253D&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fperfume&docid=4mxrI3gT9JYEyM&tbnid=dltN6UbdN81LoM&vet=12ahUKEwjdu9X-w8-NAxWeyDgGHScEN9YQM3oECGMQAA..i&w=3000&h=2000&hcb=2&ved=2ahUKEwjdu9X-w8-NAxWeyDgGHScEN9YQM3oECGMQAA'); /*Replace with your image path */
+    background-color: #2c3e50;/* Main color used in navigation bar */
+    padding: 60px 0; /* Padding to space the content */
+    text-align: center; /* Center the text */
+    color: #20c997 ;
+}
+
+.banner-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem; /* Larger font size for the title */
+    font-weight: 600;
+
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.banner-subtitle {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: wheat;
+    margin-bottom: 30px; /* Space below the subtitle */
+}
+
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 2.5rem; /* Adjust title size on small screens */
+    }
+
+    .banner-subtitle {
+        font-size: 1.25rem; /* Adjust subtitle size on small screens */
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+/* src/pages/Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-image: url('https://i.pinimg.com/736x/62/ac/17/62ac17cd343db5b85252bb05db3bf076.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(74, 72, 69);/* Dark blue-gray background */
+    color: #ffffff; /* Set default text color to white for better contrast */
+}
+
+
+#products {
+    padding: 20px 0;
+    /* Add vertical padding to the product section */
+}
+
+h2 { margin-left: 50px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #20c997 /* Space below the heading */
+}
+
+.product-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px; /* Space between the cards */
+    transition: transform 0.2s; /* Smooth transition on hover */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+
+
+
+@media (max-width: 768px) {
+    .product-card {
+        margin-bottom: 20px; /* Adjust space for smaller screens */
+    }
+}
