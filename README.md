@@ -1,4 +1,4 @@
-# Perfume Shop - Full Stack E-commerce Application
+# Perfume Shop - Full Stack E-commerce Web Application
 
 ## Overview
 
@@ -9,7 +9,7 @@ Perfume Shop is a full-stack e-commerce web application for browsing and purchas
 
 Watch the demo video of the project:
 
-[![Demo Video](https://img.youtube.com/vi/ISaRWjRdVQ0/0.jpg)](https://youtu.be/ISaRWjRdVQ0)
+[![Demo Video]
 
 
 
